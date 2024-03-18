@@ -1,11 +1,19 @@
 {
-  "name": "portoflio-content-management-system-mongodb",
+  "name": "@utkarshvr/backend-express-ts-mongodb-starter-template",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "nodemon"
   },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "url": "https://github.com/Utkarshvr/express-ts-mongodb-template"
+  },
+  "bin": "./bin/cli.js",
   "devDependencies": {
     "@types/body-parser": "^1.19.5",
     "@types/cookie-parser": "^1.4.7",
