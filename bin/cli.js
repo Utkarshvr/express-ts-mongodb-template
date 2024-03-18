@@ -11,7 +11,7 @@ const runCommand = (command) => {
 };
 
 const repoName = process.argv[2];
-const gitCheckoutCommand = `git clone --deoth 1 https://github.com/Utkarshvr/express-ts-mongodb-template ${repoName}`;
+const gitCheckoutCommand = `git clone --depth 1 https://github.com/Utkarshvr/express-ts-mongodb-template ${repoName}`;
 const installDepsCommand = `cd ${repoName} && yarn install`;
 
 console.log(`Cloning the repository with name ${repoName}`);
