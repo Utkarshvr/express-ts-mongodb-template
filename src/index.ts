@@ -23,7 +23,7 @@ app.get("/", (_, res) => {
 
 app.use("/api", rootRoute);
 
-const PORT = process.env.MONGO_URI || 5000;
+const PORT = 5000;
 
 mongoose.connection.once("open", () => {
   console.log("Connected to MongoDB");
